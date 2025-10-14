@@ -12,29 +12,14 @@ body {
   letter-spacing: 0%;
 }
 
-a {
-  font-family: Playfair Display;
-font-weight: 400;
-font-style: Regular;
-font-size: 24px;
-/*leading-trim: NONE;*/
-line-height: 100%;
-letter-spacing: 0%;
-text-decoration: underline;
-text-decoration-style: solid;
-/*text-decoration-offset: 0%;
-text-decoration-thickness: 0%;*/
 
-}
-
-a:hover {
-  color: var(--hover-color);
-  cursor: pointer;
-}
 
 /***Desktop css-settings***/
 @media screen and (xl: 1200px){
-
+  a:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+  }
 
 
 }

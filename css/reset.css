@@ -8,6 +8,10 @@
   box-sizing: content-box;
 }
 
+:root {
+  --hover-color: hsl(248, 32%, 49%);
+}
+
 /* Specific resets for common elements */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
