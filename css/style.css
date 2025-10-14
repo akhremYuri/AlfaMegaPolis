@@ -2,49 +2,40 @@
   --hover-color: hsl(248, 32%, 49%);;
 }
 
-svg {
-  width: 25px;
-  height: 25px;
-  padding: 10px;
-}
-
-ul {
-  list-style-type: none;
-
-}
-
-ul, li {
-  padding: 0;
-  margin: 0;
-}
-
-li.col-4 {
-  flex: 0 0 25px;
-}
-
-ul.row.align-items-center {
-  width: 75px;
-  padding-right: 10px;
+body {  
+  font: 80px 400 80px "Playfair Display" monospace;
+  font-family: "Playfair Display" monospace;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+/*leading-trim: NONE;*/
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+/*text-decoration-offset: 0%;
+text-decoration-thickness: 0%;*/
+
 }
 
 a:hover {
   color: var(--hover-color);
-  text-decoration: underline;
+  cursor: pointer;
 }
 
-header > ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/***Desktop css-settings***/
+@media screen and (xl: 1200px){
 
-header > ul > li > span:first-child {
-  font-style: bold;
-  color: red;
+
+
 }
 
