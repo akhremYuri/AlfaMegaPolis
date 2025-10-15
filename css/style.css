@@ -47,6 +47,13 @@ body {
   text-align: center;
 }
 
+.pageError {
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
 
 
 /***Desktop css-settings***/
