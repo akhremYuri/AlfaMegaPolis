@@ -2,6 +2,15 @@
   --hover-color: hsl(248, 32%, 49%);;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
+
 body {  
   font: 80px 400 80px "Playfair Display" monospace;
   font-family: "Playfair Display" monospace;
@@ -10,6 +19,29 @@ body {
   font-size: 80px;
   line-height: 100%;
   letter-spacing: 0%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page {
+  min-width: 320px;
+  width: 100%;
+  overflow: hidden;
 }
 
 
