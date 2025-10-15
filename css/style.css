@@ -35,13 +35,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+ 
 }
 
 .page {
   min-width: 320px;
   width: 100%;
   overflow: hidden;
+  text-align: center;
 }
 
 

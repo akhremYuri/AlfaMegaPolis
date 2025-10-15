@@ -1,44 +1,7 @@
-a {
-    font-family: Playfair Display;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    justify-content: center;
-    align-self: center;
+
+
+
+.container {
+    background-image: url("../assets/img/svg/ДУСКТ_404.svg");
 }
 
-
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-section > article{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%
-}  
-
-@media screen and (xl: 1200px){
-
-   section {
-    width: 1200px;
-    height: 800px;
-    margin: auto;
-   }
-
-    a:hover {
-      text-decoration: underline;
-      font-weight: 700;
-      font-size: 36px;
-      display: flex;
-    }
-
-}
