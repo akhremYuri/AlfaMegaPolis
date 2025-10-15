@@ -3,4 +3,4 @@ Desktop_404.html is ready.The example to see is here:
 ###
 F#######
 #
-https://github.com/akhremYuri/AlfaMegaPolis/readme.html
+https://github.com/akhremYuri/AlfaMegaPolis/desktop_404.html
