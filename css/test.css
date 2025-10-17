@@ -2,6 +2,7 @@
   --brend-color: hsl(248, 32%, 49%);
   --test-color: red;
   --test-bg-color: green;
+  --test-hover-color: blue;
 }
 
 aside {
@@ -23,15 +24,12 @@ a {
   text-decoration-style: unset;
 }
 
-header{
+header {
   margin: 50px 150px 150px 50px;
   border: 1px solid var(--test-color);
 }
-
-
 
 img {
   padding: 20px;
   margin: 10px;
 }
-
