@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 html,
 body {
   height: 100%;
@@ -25,8 +29,28 @@ body {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+}
+
+a:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
 header {
   background-color: white;
+  font: normal 1.8rem "Montserrat", monospace;
+}
+
+menu {
+  list-style-type: "|";
+}
+
+menu>li:first-child {
+  list-style-type: none;
 }
 
 .wrapper {
@@ -63,11 +87,4 @@ header {
 
 
 /***Desktop css-settings***/
-@media screen and (xl: 1200px) {
-  a:hover {
-    color: var(--hover-color);
-    cursor: pointer;
-  }
-
-
-}
+@media screen and (xl: 1200px) {}
